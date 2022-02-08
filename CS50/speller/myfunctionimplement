@@ -1,0 +1,34 @@
+    return (word[0]-97);
+    
+    
+    size
+    
+        return n;
+        
+        
+    unload
+    
+    
+        // TODO
+    int i;
+    node *tmp;
+    node *cursor;
+    for (i = 0; i <= N; i += 1)
+    {
+    	tmp=cursor=table[i];
+    	if (tmp==NULL)
+    	{
+    		return false;
+    	}
+    	while (cursor!=NULL)
+    	{
+    		tmp=cursor;
+    		if (tmp==NULL)
+    		{
+    			return false;
+    		}
+    		cursor=cursor->next;
+    		free(tmp);
+    	}
+    }
+    return true;
